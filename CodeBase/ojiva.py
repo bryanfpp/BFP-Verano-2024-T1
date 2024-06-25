@@ -1,6 +1,15 @@
 import matplotlib.pyplot as plt
 
 def crear_ojiva(datos):
+    """
+    Genera la gráfica de la ojiva a partir de los primeros 6 datos de una lista.
+
+    Args:
+        datos (list): Lista de datos numéricos.
+
+    Returns:
+        None
+    """
     # Tomar solo los primeros 6 números de la lista de datos
     datos = datos[:6]
 
