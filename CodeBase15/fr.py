@@ -1,3 +1,4 @@
+
 def fr_abs(frecuancia):
     fr = []
     fas = sum(frecuancia)
